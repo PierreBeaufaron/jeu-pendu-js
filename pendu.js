@@ -1,6 +1,26 @@
 class JeuxDuPendule {
     constructor() {
-        this.mots = ["arbre", "chat", "maison", "soleil", "voiture"];
+        this.mots = ["arbre", "chaud", "maison", "soleil", "voiture", "banane", "fleur", "chaton", "chien", "cheval", 
+    "avion", "train", "table", "chaise", "lampe", "stylo", "pomme", "orange", "porte", "fenêtre",
+    "livre", "mur", "plage", "montre", "cloche", "savon", "balle", "marche", "jardin", "miroir",
+    "village", "route", "pont", "pierre", "colline", "rivière", "chaîne", "forêt", "ciel", "nuage",
+    "étoile", "neige", "mer", "océan", "vague", "pluie", "vent", "orage", "lune", "soleil",
+    "éclair", "brume", "goutte", "tulipe", "rose", "lilas", "iris", "orchidée", "dauphin", "requin",
+    "baleine", "lion", "tigre", "ours", "renard", "souris", "lapin", "cerf", "loup", "hibou",
+    "cigogne", "hirondelle", "canard", "aigle", "faucon", "pigeon", "colombe", "grenouille", "serpent", "lézard",
+    "papillon", "mouche", "abeille", "fourmi", "araignée", "escargot", "chameau", "zèbre", "girafe", "singe",
+    "kangourou", "panda", "koala", "iguane", "autruche", "éléphant", "poulpe", "méduse", "mouette", "perroquet",
+    "cacatoès", "lama", "dromadaire", "tortue", "caïman", "pingouin", "manchot", "flamant", "crocodile", "phoenix",
+    "marmotte", "lynx", "bison", "cerf", "loutre", "chevreuil", "buffle", "iguane", "antilope", "gnu",
+    "puma", "caribou", "yack", "boeuf", "bouc", "poule", "coq", "dinde", "oiseau", "cigogne",
+    "hirondelle", "couveuse", "râteau", "bêche", "arrosoir", "tondeuse", "plantoir", "grelinette", "serfouette", "sécateur",
+    "fourche", "pioche", "truelle", "perceuse", "visseuse", "marteau", "scie", "lime", "râpe", "ponceuse",
+    "rabot", "burin", "pince", "tournevis", "clou", "vis", "écrou", "boulon", "rondelle", "cheville",
+    "rivière", "torrent", "cascade", "ruisseau", "mare", "étang", "lac", "barrage", "aqueduc", "fontaine",
+    "source", "puits", "crique", "delta", "marée", "vase", "corail", "atoll", "lagon", "récif",
+    "sable", "gravier", "galet", "rocher", "falaise", "grotte", "gorge", "montagne", "plateau", "prairie",
+    "savane", "désert", "dune", "forêt", "jungle", "taïga", "toundra", "steppe", "péninsule", "archipel",
+    "volcan", "glacier", "cratère", "canyon", "vallée", "fjord", "grottes", "îlot", "détroit", "cap"];
         this.lettreDonner = document.getElementById('letter');
         this.wordContainer = document.getElementById('word-container');
         this.subButton = document.getElementById('subButton');
